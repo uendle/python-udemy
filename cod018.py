@@ -7,14 +7,14 @@ def multiplicar(multiplicador):
     return multiplica
 
 
-valor = multiplicar(5)
-valor1 = multiplicar(10)
+valor1 = multiplicar(5)
+valor2 = multiplicar(10)
 
 valor2 = executa(lambda m :lambda  n : n * m ,2)
 
 
 
-print(valor(5))
-print(valor1(10))
+print(valor1(5))
+print(valor2(10))
 print(valor2(5))
 #print(valor1(10))
